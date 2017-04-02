@@ -1,0 +1,337 @@
+
+
+               body
+             {   font-family: Raleway;
+                 max-width:100%;
+                 overflow-x:hidden;
+                 overflow:-moz-scrollbars-vertical;
+                 overflow-x:hidden;
+                 overflow-y:auto;
+                 font-family:
+
+             }
+
+
+          .cf1
+             {
+                 background-color: #0a253e;
+                 width:100%
+             }
+           
+            li a
+             {
+                 
+                 letter-spacing:2px;
+                 font-weight:200;
+                 font-size:20px;
+                
+                 
+             }
+ .navbar-default .navbar-nav>li>a:hover
+             {
+                color: white;
+                background-color: transparent;
+             }
+             
+         .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+                 margin-right: 10px;
+                 margin-left: 30%;
+               }
+            .navbar-fixed-top
+               {
+                 top:0;
+                 border-width:0 0 10px;
+             }
+             .navbar-default 
+              {
+                 border-color: #0a253e;
+              }
+             .c1
+             {
+                 background-image: url(http://i.imgur.com/WAj54Eb.jpg?1);
+                 width: 100%;
+                 height: 600px;
+                 background-attachment: fixed;
+                 z-index: -1;
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                 flex-direction:column;
+                 background-size:cover;
+                 background-position:center;
+                
+             }
+             .text
+             {
+                
+                word-wrap:break-word;
+                
+            
+             }
+            .text1
+             {
+                 border:1px solid #0a253e;
+                 padding:10px;
+              }
+            .text1:hover
+               {
+                  background-color:white;
+                  transition: 0.5s all;
+                   
+                }
+             .card-box
+             {
+                 width: 80%;
+                 height:auto;
+                 border: 1px solid white;
+                 background-color:white;
+                 left:10%;
+                 border-radius:2px;
+                 margin-top:4%;
+             }
+             .c11
+             {
+                 width:100%;
+                 text-align:center;
+                 color:#0a253e;
+                 font-size:30px;
+                 margin-top: 2%;
+                 margin-bottom: 3%;
+             }
+             .card 
+             {
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                transition: 0.3s;
+                z-index:-100;
+                visibility:visible;
+                
+             }
+             img
+             {
+                 z-index:-1;
+             }
+
+          
+             .row
+             {
+               margin-right: -15px;
+               margin-left: -15px;
+               margin-bottom: 6%;
+             }
+            
+            
+             
+             .col-md-3.col-xs-6.col-sm-4.col-lg-4
+             {
+                padding-bottom:4%; 
+              }
+              .footer
+             {   position:relative;
+                 background-color:#0a253e;
+                 width:100%;
+                 height:auto;
+                 color:white;
+                 text-align:center;
+             }
+              .navbar-nav>li>.dropdown-menu 
+             {
+                margin-top: 0;
+                background-color: aliceblue;
+                border-radius: 4px;
+              }
+.navbar-nav>li>.dropdown-menu
+{
+    margin-top: 0;
+    background-color: aliceblue;
+    border-radius: 4px;
+    margin-top:10%;
+}
+.modal-header
+{
+    padding: 10px;
+    border-bottom: 1px solid white;
+    /* background-color: white; */
+    border-top : 4px solid #0a253e;
+    color:#0a253e;
+}
+.modal-content
+{
+    border-top:4px solid #0a253e;
+    color: #c1955d;
+    background-color: white;
+    width: 70%;
+}
+.one
+{
+    border: 1px solid gray;
+    border-radius: 2px;
+    width: 70%;
+    margin-left: 16%;
+    padding-left: 4%;
+    height: 50px;
+}
+.two
+{
+    border: 1px solid gray;
+    border-radius: 2px;
+    width: 70%;
+    padding-left: 4%;
+    height: 50px;
+    margin-left: 16%;
+    margin-top:4%;
+}
+
+.signup
+{
+    font-size: 20px;
+    color:#0a253e;
+    background-color:#0a253e;
+    border: 1px solid #0a253e;
+    height: 50px;
+    width: 70%;
+    margin-top: 4%;
+    margin-left: 16%;
+
+}
+.modal-footer {
+    padding-bottom: 8%;
+    /* padding: 15px; */
+    text-align:left;
+    border-top: 1px solid white;
+    margin-left: 18%;
+    color:orange;
+    margin-top: -7%;
+}
+/*style from userSignupLogin.php for modal of login signup*/
+
+.mm {
+    padding:3px;
+    text-align: center;
+    max-width:70%;
+    border-bottom: 1px solid white;
+}
+.m1 {
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+    min-width:200px;
+    margin: 0px auto;
+    background:white;
+    border-radius: 10px;
+    border: 1px solid #0a253e;
+    border-top:5px solid #0a253e;
+}
+.m2
+{
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+    min-width:200px;
+    margin: 0px auto;
+    background:white;
+    border-radius: 10px;
+    border: 1px solid black;
+    border-top:5px solid #0a253e;
+}
+.class1,.class2,.class3
+{
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding-left: 4%;
+}
+.sub
+{
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 40%;
+    width: 25%;
+    height: 30px;
+    color:white;
+    border: 1px solid #0a253e;
+    background-color: #0a253e;
+    border-radius: 4px;
+}
+.c5
+{
+    width:100%;
+    margin-bottom:8%;
+}
+h2
+{
+    text-align:center;
+    color:orange;
+}
+@media screen and (max-width: 480px)
+{
+    .sub
+    {
+        width:35%;
+    }
+}
+
+
+input#txtConfirmPassword
+{
+
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding-left: 4%;
+
+}
+input.input7 {
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding-left: 4%;
+
+}
+
+.pro_name
+     {
+        word-wrap: break-word;
+        text-align: center;
+         padding-bottom:2%;
+      }
+
+  .cancel_order {
+    margin-top: 2%;
+    border: 1px solid white;
+    padding: 1%;
+    background-color: white;
+}
+.cancel_order a:hover
+{
+     text-decoration:none;
+      color:black;
+    
+}
+.signup1
+{
+    font-size: 20px;
+    color:#0a253e;
+    background-color:#0a253e;
+    border: 1px solid #0a253e;
+    height: 50px;
+    width: 75%;
+    margin-top: 4%;
+    
+}
+.modal-header .close 
+  {
+    /* margin-top: -2px; */
+   
+    margin-right: -15%;
+    background-color: white;
+}
+/*endss here style of login and signup*/

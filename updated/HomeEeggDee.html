@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+ <head>
+         <title> EggDee </title>
+         <link rel="icon" type="image/png" href="C:\Users\Lalit Singh\Desktop\fb1.png"/>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway"/>
+         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans+Condensed" />
+         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+         <style>
+               body
+             {
+                 max-width:100%;
+                 overflow-x:hidden;
+                 overflow:-moz-scrollbars-vertical;
+                 overflow-x:hidden;
+                 overflow-y:auto;
+
+             }
+            .cf1
+             {
+                 background-color: #0a253e;
+                 width:100%
+             }
+            li a
+             {
+                 font-family: 'Lato', sans-serif;
+                 letter-spacing:2px;
+                 font-weight:200;
+                 font-size:20px;
+                
+                 
+             }
+           .navbar-default .navbar-nav>li>a:hover
+             {
+                color: white;
+                background-color: transparent;
+             }
+             
+         .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+                 margin-right: 10px;
+                 margin-left: 30%;
+               }
+            .navbar-fixed-top
+               {
+                 top:0;
+                 border-width:0 0 10px;
+             }
+             .navbar-default 
+              {
+                 border-color: #0a253e;
+              }
+             .c1
+             {
+                 background-image: url(http://i.imgur.com/zKY7tuI.jpg?1);
+                 width: 100%;
+                 height: 600px;
+                 position: relative;
+                 background-attachment: fixed;
+                 z-index: -1;
+                 display: flex;
+                 justify-content: center;
+                  align-items: center;
+                
+             }
+             .text
+             {
+                
+                word-wrap:break-word;
+                font-family: 'Lato', sans-serif;
+            
+             }
+             .card-box
+             {
+                 width: 80%;
+                 height:auto;
+                 border: 1px solid black;
+                 background-color:aliceblue;
+                 left:10%;
+                 border-radius:2px;
+                 margin-top:-6%;
+             }
+             .c11
+             {
+                 width:100%;
+                 text-align:center;
+                 color:green;
+                 font-family: 'Lato', sans-serif;
+                 font-size:30px;
+                 margin-top: 2%;
+                 margin-bottom: 3%;
+             }
+             .card 
+             {
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                transition: 0.3s;
+                z-index:-100;
+                visibility:visible;
+                
+             }
+             img
+             {
+                 z-index:-1;
+             }
+
+          .card:hover 
+              {
+                 
+                background-color:green;
+                color:aliceblue;
+                transition:all 0.3s ease-in; 
+                
+             }
+             .row
+             {
+               margin-right: -15px;
+               margin-left: -15px;
+               margin-bottom: 6%;
+             }
+            
+            .layout
+             {
+                position:absolute;
+                opacity:0;
+                left:15px;
+                top:0%;
+                width:92%;
+                 height:150px;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                overflow:hidden;
+                
+             }
+            
+             .card:hover .layout
+             {   
+                
+                 background-color:orange;
+                 transition:All 0.3s linear;
+                 opacity:0.7;
+                
+                 
+             }
+             .card:hover span
+             {
+                 border:1px solid green;
+                 border-radius:2px;
+                 transition:All 0.3s linear;
+                 padding-left:20px;
+                 padding-right:20px;
+                 padding-top:12px;
+                 padding-bottom:12px;
+                 background-color:orange;
+                
+        
+             }
+             .col-md-3.col-xs-6.col-sm-4.col-lg-4
+             {
+                padding-bottom:4%; 
+              }
+              .footer
+             {   position:relative;
+                 background-color:#0a253e;
+                 width:100%;
+                 height:auto;
+                 color:green;
+                 font-family: 'Lato',sans-serif;
+                 text-align:center;
+             }
+             @media screen and (max-width:780px) {
+                     .card:hover .layout
+                     {
+                        width:82%;
+                    }
+                   }
+        </style>
+         
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid cf1">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span>
+                         <span class="icon-bar"></span> 
+                    </button>
+        
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                         <ul class="nav navbar-nav">
+                               <li><a href="C:\Users\Lalit Singh\Desktop\HomeEeggDee.html">Home</a></li>
+                               <li><a href="C:\Users\Lalit Singh\Desktop\AboutUs.html">About us</a></li>
+                               <li><a href="#">Menu</a></li>
+                               <li><a href="#contect" id="showpop">Contact</a></li> 
+                               <li><a href="#">Offers</a></li> 
+                         </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                               <li><a href="file:///C:/Users/Lalit%20Singh/Desktop/IEEEtran/AdminLogin.html"><span class="glyphicon glyphicon-log-                                                       in"></span> AdminLogin</a></li>
+                    </ul>
+                 </div>
+           </div>
+    </nav>
+     <div class="container c1">
+             
+              <div class="text">
+                  <p style="color:green;font-size:36px;">Egg-Dee</p>
+                  <p style="color:green;font-size:24px;">Order food here</p>
+              </div>
+      </div>
+              <div class="container card-box">
+                       <div class="conatiner c11">
+                              popular dishes
+                       </div>
+                      <div class="row">
+                                <div class="col-md-3 col-xs-6 col-sm-4 col-lg-4">  
+                                           <div class="card" id="card">
+                                                        <img src="eggbhurji.jpg" alt="Avatar" style="width:100%;height:150px;">
+                                                            <div class="container layout">
+                                                                <a href="#" style="text-decoration:none;color:green;size:20px;">
+                                                                  
+                                                                    <span>order </span>
+                                                                </a>                                    
+                                                            </div>
+                                                    <div class="container">
+                                                          <h4><b>Egg-Bhurji</b></h4> 
+                                                           <p>price - 60 Rs</p> 
+                                                    </div>
+                                                 
+                                            </div>
+                                           
+                          
+                               </div>
+                                <div class="col-md-3 col-xs-6 col-sm-4 col-lg-4">  
+                                           <div class="card">
+                                                 <img src="eggcurry.jpg" alt="Avatar" style="width:100%;height:150px;">
+                                                  <div class="container layout">
+                                                                <a href="#" style="text-decoration:none;color:green;size:20px;">
+                                                                  
+                                                                    <span>order </span>
+                                                                </a>                                    
+                                                     </div>
+                                                    <div class="container">
+                                                          <h4><b>Egg-Curry</b></h4> 
+                                                           <p>price - 60 Rs</p> 
+                                                    </div>
+                                            </div>
+                          
+                               </div>
+                                
+                      
+                      
+                                <div class="col-md-3 col-xs-6 col-sm-4 col-lg-4">  
+                                           <div class="card">
+                                                 <img src="eggbhurji.jpg" alt="Avatar" style="width:100%;height:150px;">
+                                                    <div class="container layout">
+                                                                <a href="#" style="text-decoration:none;color:green;size:20px;">
+                                                                  
+                                                                    <span>order </span>
+                                                                </a>                                    
+                                                     </div>
+                                                    <div class="container">
+                                                          <h4><b>Egg-Bhurji</b></h4> 
+                                                           <p>price - 60 Rs</p> 
+                                                    </div>
+                                            </div>
+                          
+                               </div>
+                                <div class="col-md-3 col-xs-6 col-sm-4 col-lg-4">  
+                                           <div class="card">
+                                                 <img src="eggcurry.jpg" alt="Avatar" style="width:100%;height:150px;">
+                                                    <div class="container layout">
+                                                                <a href="#" style="text-decoration:none;color:green;size:20px;">
+                                                                  
+                                                                    <span>order </span>
+                                                                </a>                                    
+                                                    </div>
+                                                    <div class="container">
+                                                          <h4><b>Egg-Curry</b></h4> 
+                                                           <p>price - 60 Rs</p> 
+                                                    </div>
+                                            </div>
+                          
+                               </div>
+                                
+                          
+                                <div class="col-md-3 col-xs-6 col-sm-4 col-lg-4">  
+                                           <div class="card">
+                                                 <img src="eggtikka.jpg" alt="Avatar" style="width:100%;height:150px;">
+                                                   <div class="conatiner layout">
+                                                                <a href="#" style="text-decoration:none;color:green;size:20px;">
+                                                                  
+                                                                    <span>order </span>
+                                                                </a>                                    
+                                                    </div>
+                                                    <div class="container">
+                                                          <h4><b>Egg-tikka</b></h4> 
+                                                           <p>price - 60 Rs</p> 
+                                                    </div>
+                                            </div>
+                          
+                               </div>
+                                <div class="col-md-3 col-xs-6 col-sm-4 col-lg-4">  
+                                           <div class="card" onMouseOver="show_sidebar()">
+                                                 <img src="breadomlet.jpg" alt="Avatar" style="width:100%;height:150px;">
+                                                     <div class="container layout">
+                                                                <a href="#" style="text-decoration:none;color:green;size:20px;">
+                                                                  
+                                                                    <span>order </span>
+                                                                </a>                                    
+                                                    </div>
+                                                    <div class="container">
+                                                          <h4><b>Bread-omlet</b></h4> 
+                                                           <p>price - 60 Rs</p> 
+                                                    </div>
+                                            </div>
+                          
+                               </div>
+                                
+                    
+                   
+                                <div class="col-md-3 col-xs-6 col-sm-4  col-lg-4">  
+                                           <div class="card">
+                                                 <img src="cheesomlet.jpg" alt="Avatar" style="width:100%;height:150px;">
+                                                    <div class="container layout">
+                                                                <a href="#" style="text-decoration:none;color:green;size:20px;">
+                                                                  
+                                                                    <span>order </span>
+                                                                </a>                                    
+                                                    </div>
+                                                    <div class="container">
+                                                          <h4><b>cheese-omlet</b></h4> 
+                                                           <p>price - 60 Rs</p> 
+                                                    </div>
+                                            </div>
+                          
+                               </div>
+                                <div class="col-md-3 col-xs-6 col-sm-4  col-lg-4">  
+                                           <div class="card">
+                                                 <img src="kadaieggmasala.jpg" alt="Avatar" style="width:100%;height:150px;">
+                                                    <div class="container layout">
+                                                                <a href="#" style="text-decoration:none;color:green;size:20px;">
+                                                                  
+                                                                    <span>order </span>
+                                                                </a>                                    
+                                                    </div>
+                                                    <div class="container">
+                                                          <h4><b>Kadai Egg-masala</b></h4> 
+                                                           <p>price - 60 Rs</p> 
+                                                    </div>
+                                            </div>
+                          
+                               </div>
+                                
+                    
+                  
+              </div>
+    </div>
+    <div class="container footer">
+              <div class="footer-body">
+                  <address style="font-size:18px;">
+                        San Diego Brewing Co.®</br>
+                        10450 Friars Rd.</br>
+                        San Diego, CA 92120</br>
+
+                         Phone: 619-284-BREW
+                  
+                  </address>
+              </div>
+     </div>
+    
+    <script>
+        
+    </script>
+</body>
+
